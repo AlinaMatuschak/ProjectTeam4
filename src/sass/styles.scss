@@ -1,3 +1,7 @@
 @import './normalize';
-@import './fonts.css';
-@import "./variables";
+@import './fonts';
+@import './base';
+@import './variables';
+
+@import 'components/container-fluid';
+@import 'components/container';
