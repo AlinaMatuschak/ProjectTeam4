@@ -1,0 +1,11 @@
+@media (min-width: 768px) and (max-width: 1920px){
+    .header {
+        max-width: 620px;
+        margin: 0 auto;
+      }  
+  }
+  @media (min-width: 1920px) {
+    .header {
+        max-width: 1189px;
+      }
+  }
