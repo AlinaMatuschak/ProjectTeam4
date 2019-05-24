@@ -7,3 +7,15 @@ $dark_blue: #495161;
 $dark: #a2a2a2;
 $light: #edf0f2;
 $black: #222;
+
+@mixin montserrat($font-weight) {
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: $font-weight;
+}
+
+@mixin acrom($font-weight) {
+    font-family: "Acrom", sans-serif;
+    font-style: normal;
+    font-weight: $font-weight;
+}
