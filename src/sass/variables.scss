@@ -7,6 +7,21 @@ $dark_blue: #495161;
 $dark: #a2a2a2;
 $light: #edf0f2;
 $black: #222;
+<<<<<<< HEAD:src/sass/variables.scss
 $acrom: "Acrom", sans-serif;
 
 
+=======
+
+@mixin montserrat($font-weight) {
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: $font-weight;
+}
+
+@mixin acrom($font-weight) {
+    font-family: "Acrom", sans-serif;
+    font-style: normal;
+    font-weight: $font-weight;
+}
+>>>>>>> upstream/master:src/sass/_variables.scss

@@ -1,4 +1,5 @@
 @import './normalize';
+<<<<<<< HEAD
 @import './fonts';
 @import './base';
 @import './variables';
@@ -19,3 +20,9 @@
 @import 'components/button-header';
 @import 'components/confidentiality';
 
+=======
+@import './fonts.css';
+@import "./variables";
+@import "./components/container-fluid.scss";
+@import "./your_way";
+>>>>>>> upstream/master
