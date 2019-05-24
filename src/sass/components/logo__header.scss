@@ -1,0 +1,17 @@
+.logo__header {
+    padding-top: 1.625rem;
+    padding-bottom: 1.6875rem;
+}
+
+@media (min-width: 768px) and (max-width: 1920px){
+    .logo__header {
+        padding-top: 2.5rem;
+        padding-bottom: 2.0625rem;;
+      }  
+  }
+  @media (min-width: 1920px) {
+    .logo__header {
+        padding-top: 2.3125rem;
+        padding-bottom: 4.5625rem;
+      }
+  }
