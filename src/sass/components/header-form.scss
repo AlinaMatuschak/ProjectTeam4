@@ -1,0 +1,17 @@
+.header-form__background {
+  background-color: #fff;
+  $s: 1.125rem;
+  padding-top: 2.125rem;
+  padding-right: $s;
+  padding-left: $s;
+  padding-bottom: 1.625rem;
+}
+@media (min-width: 1920px) {
+  .header-form__background {
+    $s: 2.3125rem;
+    width: 460px;
+    padding-top: 2.6875rem;
+    padding-left: $s;
+    padding-right: $s;
+  }
+}

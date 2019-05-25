@@ -1,0 +1,65 @@
+.info-text {
+  font-family: $acrom;
+  &__h3 {
+    color: #fff;
+    font-size: 0.875rem;
+    font-weight: 300;
+    padding-bottom: 1.625rem;
+  }
+  &__h1 {
+    color: $blue;
+    font-size: 1.125rem;
+    font-weight: bold;
+    padding-bottom: 1.625rem;
+  }
+  &__h2 {
+    color: $yellow;
+    font-size: 0.875rem;
+    font-weight: bold;
+    padding-bottom: 1.25rem;
+  }
+}
+.text-h2__accent {
+  font-size: 1.25rem;
+}
+
+@media (min-width: 768px) and (max-width: 1920px) {
+  .info-text__h3 {
+    font-weight: 400;
+  }
+  .info-text__h1 {
+    font-size: 2.5rem;
+  }
+  .info-text__h2 {
+    font-size: 1.125rem;
+  }
+  .text-h2__accent {
+    font-size: 2.5rem;
+  }
+}
+
+@media (min-width: 1920px) {
+  .info-text {
+    margin-right: 2.375rem;
+    &__h3 {
+      font-size: 1.25rem;
+      padding-bottom: 2rem;
+    }
+    &__h1 {
+      font-size: 3.65rem;
+    }
+    &__different {
+      font-size: 2.1875rem;
+      font-weight: bold;
+    }
+    &__h2 {
+      font-size: 1.8125rem;
+      font-weight: bold;
+      line-height: 1.5;
+    }
+  }
+  .text-h2__accent {
+    font-size: 29.208px;
+    font-size: 3.5rem;
+  }
+}
