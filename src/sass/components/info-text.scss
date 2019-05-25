@@ -23,7 +23,7 @@
   font-size: 1.25rem;
 }
 
-@media (min-width: 768px) and (max-width: 1920px) {
+@media (min-width: 748px) {
   .info-text__h3 {
     font-weight: 400;
   }
@@ -38,7 +38,7 @@
   }
 }
 
-@media (min-width: 1920px) {
+@media (min-width: 1170px) {
   .info-text {
     margin-right: 2.375rem;
     &__h3 {
@@ -60,6 +60,6 @@
   }
   .text-h2__accent {
     font-size: 29.208px;
-    font-size: 3.5rem;
+    font-size: 3.2rem;
   }
 }
