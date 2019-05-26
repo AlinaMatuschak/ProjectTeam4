@@ -1,0 +1,15 @@
+.confidentiality {
+  font-size: 0.8125rem;
+  text-align: center;
+  font-family: $acrom;
+  color: $light_blue;
+  padding-top: 0.8125rem;
+  margin-bottom: 1.875rem;
+}
+
+@media (min-width: 1170px) {
+  .confidentiality {
+    font-size: 1rem;
+    margin-bottom: 6.4375rem;
+  }
+}

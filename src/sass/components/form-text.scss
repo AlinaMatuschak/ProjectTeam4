@@ -1,0 +1,36 @@
+.form-text {
+  font-family: $acrom;
+  color: $black;
+  &__h2 {
+    font-size: 1rem;
+    font-weight: bold;
+    padding-bottom: 1rem;
+  }
+  &__h4 {
+    font-size: 0.8125rem;
+    padding-bottom: 1rem;
+  }
+}
+
+@media (min-width: 748px) {
+  .form-text__h2 {
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: bold;
+  }
+  .form-text__h4 {
+    text-align: center;
+  }
+}
+
+@media (min-width: 1170px) {
+  .form-text__h2 {
+      font-size: 2rem;
+      text-align: left;
+      padding-bottom: 2.4375rem;
+  }
+  .form-text__h4 {
+      font-size: 1.125rem;
+      padding-bottom: 2.25rem;
+  }
+}

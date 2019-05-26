@@ -1,58 +1,58 @@
 .your_way {
-  max-width: 1170px;
-  height: 645px;
+  max-width: 260px;
+  height: 592px;
   margin: 0 auto;
-  padding-top: 100px;
+  padding-top: 40px;
   &--wrp {
     width: 100%;
     background: $background;
-    height: 645px;
+    height: 592px;
     margin: 0;
   }
   &__text {
     display: block;
-    max-width: 670px;
-    font-size: 30px;
+    max-width: 260px;
+    font-size: 16px;
+    margin: 0 0 25px;
     color: #fff;
     text-align: left;
     @include acrom(700);
-    margin: 0 0 50px 10px;
   }
 }
 
 .a_section {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   &__title {
     color: $blue;
-    font-size: 48px;
+    font-size: 20px;
     @include acrom(700);
     text-align: left;
-    margin: 0 0 55px 15px;
+    margin: 20px 0;
     &--wrp {
-      max-width: 720px;
+      max-width: 260px;
+      order: 1;
     }
   }
   &__button {
-    width: 683px;
-    height: 110px;
-    margin-left: 15px;
+    width: 260px;
+    height: 70px;
     background: $orange;
     color: #fff;
     border: 0;
     box-shadow: 1px 1px 4px 0 $orange;
     text-transform: uppercase;
-    font-size: 30px;
+    font-size: 14px;
     @include acrom(800);
   }
   &__inf {
     display: block;
-    width: 345px;
+    max-width: 260px;
     color: #6d757f;
     text-align: left;
-    font-size: 18px;
-    line-height: 39px;
-    margin-top: -75px;
+    font-size: 14px;
+    line-height: 20px;
     @include acrom(700);
     &--white {
       color: #fff;
@@ -69,19 +69,7 @@
   margin-bottom: 16px;
 }
 
-/*@media (max-width: 952px) {
-  .a_section {
-    &__button {
-      width: 490px;
-    }
-    &__inf {
-        line-height: 30px;
-        margin-top: 0;
-      }
-  }
-}*/
-
-@media (max-width: 1169px) {
+@media (min-width: 748px) {
   .your_way {
     max-width: 748px;
     height: 600px;
@@ -90,78 +78,72 @@
       height: 600px;
     }
     &__text {
-      max-width: 640px;
+      max-width: 671px;
       font-size: 22px;
       margin: 0 0 30px 64px;
     }
   }
 
   .a_section {
-    flex-wrap: wrap;
     margin-left: 64px;
     &__title {
       font-size: 40px;
-      margin: 0 0 30px 0;
+      margin: 30px 0;
+      width: 625px;
       &--wrp {
         max-width: 620px;
-        order: 1;
       }
     }
     &__button {
       width: 532px;
-      height: 70px;
-      margin-left: 0;
       font-size: 18px;
     }
     &__inf {
-      max-width: 620px;
+      max-width: 385px;
       font-size: 16px;
       line-height: 22px;
-      margin-top: 0;
     }
-  }
-
-  .a_section__inf::before {
-    margin-bottom: 16px;
   }
 }
 
-@media (max-width: 748px) {
-    .your_way {
-        max-width: 260px;
-        height: 562px;
-        padding-top: 40px;
-        &--wrp {
-          height: 562px;
-        }
-        &__text {
-          max-width: 260px;
-          font-size: 16px;
-          margin: 0 0 25px 0;
-        }
+@media (min-width: 1170px) {
+  .your_way {
+    max-width: 1170px;
+    height: 645px;
+    padding-top: 100px;
+    &--wrp {
+      height: 645px;
+    }
+    &__text {
+      max-width: 670px;
+      font-size: 30px;
+      margin: 0 0 50px 10px;
+    }
+  }
+
+  .a_section {
+    flex-wrap: nowrap;
+    margin: 0;
+    &__title {
+      font-size: 48px;
+      margin: 0 0 55px 15px;
+      width: 671px;
+      &--wrp {
+        max-width: 720px;
+        order: 0;
       }
-    
-      .a_section {
-        margin-left: 0;
-        &__title {
-          font-size: 20px;
-          margin: 0 0 20px 0;
-          &--wrp {
-            max-width: 260px;
-          }
-        }
-        &__button {
-          width: 260px;
-          font-size: 14px;
-        }
-        &__inf {
-          max-width: 260px;
-          font-size: 14px;
-          line-height: 22px;
-        }
-      }
-    
-      .a_section__inf::before {
-        margin-bottom: 16px;
-      }
+    }
+    &__button {
+      width: 683px;
+      height: 110px;
+      margin-left: 15px;
+      font-size: 30px;
+    }
+    &__inf {
+      max-width: 350px;
+      font-size: 18px;
+      line-height: 39px;
+      margin-top: -75px;
+    }
+  }
 }

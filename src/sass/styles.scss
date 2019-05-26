@@ -1,5 +1,23 @@
 @import './normalize';
-@import './fonts.css';
-@import "./variables";
-@import "./components/container-fluid.scss";
-@import "./your_way";
+@import './fonts';
+@import './base';
+@import './variables';
+@import './why_it';
+@import './your_way';
+
+
+@import 'components/container-fluid';
+@import 'components/container';
+@import 'components/container-fluid__header';
+@import 'components/header';
+@import 'components/logo';
+@import 'components/logo__header';
+@import 'components/header-info';
+@import 'components/info-text';
+@import 'components/header-form';
+@import 'components/form';
+@import 'components/form-text';
+@import 'components/input';
+@import 'components/button';
+@import 'components/button-header';
+@import 'components/confidentiality';
