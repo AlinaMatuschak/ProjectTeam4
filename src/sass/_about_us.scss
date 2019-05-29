@@ -1,0 +1,20 @@
+@media (min-width: 1170px) {
+  .about_us {
+    &__wrap {
+      display: flex;
+      flex-wrap: wrap;
+    }
+  }
+  
+  .go_for_it {
+    order: 1;
+  }
+
+  .awward {
+    order: 3;
+  }
+
+  .partners {
+    order: 2;
+  }
+}
