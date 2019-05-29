@@ -232,7 +232,8 @@
     height: 370px;
 
     &__line {
-      margin-right: 325px;
+      position: absolute;
+      margin-top: 110px;
     }
 
     &__num {
@@ -266,7 +267,7 @@
       transition: 0.2s;
 
       &--text {
-        margin-top: 25px;
+        margin-top: 20px;
         font-size: 25px;
         line-height: 1;
       }
