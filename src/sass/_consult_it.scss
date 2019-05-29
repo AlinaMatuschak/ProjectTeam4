@@ -172,6 +172,16 @@
   .card {
     justify-content: center;
 
+    &__line {
+      background-color: $blue;
+      position: absolute;
+      width: 60px;
+      height: 2px;
+      margin-top: 90px;
+      margin-right: 190px;
+      z-index: 7;
+    }
+    
     &__num {
       position: absolute;
       background-repeat: no-repeat;
