@@ -1,0 +1,159 @@
+.card {
+  width: 225px;
+  box-shadow: -20px 20px 0px 0px #dee1e3, 0px 15px 32px 0px rgba(0, 0, 0, 0.16);
+  font-family: $acrom;
+  position: relative;
+  list-style: none;
+  margin: 0 auto;
+
+  &__number--grey {
+    font-family: $monser;
+    font-size: 70px;
+    color: $light;
+    text-align: left;
+    position: absolute;
+    right: 0px;
+    top: -50px;
+    z-index: -1;
+  }
+
+  &__title {
+    font-size: 18px;
+    text-transform: uppercase;
+    padding-top: 32px;
+    padding-left: 25px;
+    font-weight: 800;
+    width: 135px;
+    line-height: 1.444;
+    text-align: left;
+    margin: 0;
+    position: relative;
+
+    &::before {
+      content: '';
+      display: block;
+      width: 60px;
+      height: 2px;
+      background-color: $blue;
+      position: absolute;
+      top: 16px;
+      left: -12px;
+    }
+  }
+
+  &__awward {
+    background-color: $white;
+    height: 465px;
+    margin-bottom: 65px;
+
+    &--2015 {
+      height: 415px;
+    }
+  }
+
+  &__text {
+    color: #6b6f7a;
+    text-align: center;
+    font-size: 14px;
+    padding-left: 25px;
+    padding-right: 10px;
+    text-align: left;
+    line-height: 1.5;
+
+    &--03{
+      padding-right: 30px;
+    }
+
+    &--dark {
+      color: $black;
+      font-weight: 800;
+    }
+  }
+
+  &__img {
+    display: block;
+    height: auto;
+    max-width: 100%;
+    margin: 0 auto;
+  }
+}
+
+.list__awward{
+  padding-left: 0;
+}
+
+@media (min-width: 748px) {
+  .list__awward {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .card {
+    &__awward {
+      margin-bottom: 20px;
+    }
+
+    &__awward--2015 {
+      height: 465px;
+    }
+
+    &__awward--2015 p {
+      padding-bottom: 60px;
+    }
+
+    &__awward--2016 p {
+      padding-bottom: 15px;
+    }
+  }
+}
+
+@media (min-width: 1170px) {
+  .card {
+    box-shadow: none;
+    width: 33%;
+    padding: 0;
+    height: 300px;
+
+    &__inside {
+      display: flex;
+      align-items: flex-start;
+      width: 360px;
+    }
+
+    &__title {
+      padding: 0;
+      font-size: 1.2rem;
+      width: 160px;
+      line-height: 1.25;
+
+      &::before {
+        display: none;
+      }
+    }
+
+    &__text{
+      padding: 0; 
+
+      &--01{
+        width: 228px;
+      }
+
+      &--02{
+        width: 195px;
+      }
+
+      &--03{
+        width: 190px;
+      }
+ 
+    }
+
+    &__number--grey{
+      transform: rotate(-90deg);
+      top: -60px;
+      right: -5px;
+      font-size: 30px
+    }
+  }
+}
