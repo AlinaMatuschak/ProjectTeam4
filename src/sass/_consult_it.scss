@@ -39,8 +39,6 @@
 
 .card {
   position: relative;
-  display: flex;
-  justify-content: center;
   width: 250px;
   height: 370px;
   z-index: 1;
@@ -228,7 +226,8 @@
     height: 370px;
 
     &__line {
-      margin-right: 325px;
+      position: absolute;
+      margin-top: 110px;
     }
 
     &__num {
