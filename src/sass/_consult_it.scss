@@ -45,12 +45,17 @@
 
   &__num {
     position: absolute;
+<<<<<<< HEAD
     margin-left: 115px;
     background-repeat: no-repeat;
     background-size: cover;
     width: 177px;
     height: 109px;
     z-index: 2;
+=======
+    background-repeat: no-repeat;
+    background-size: cover;
+>>>>>>> master
   }
 
   &__line {
@@ -89,7 +94,7 @@
 }
 
 .wrapperEnd {
-  width: 260px;
+  width: 290px;
   padding-top: 70px;
   padding-bottom: 40px;
   margin: auto;
@@ -107,9 +112,10 @@
     &--text {
       @include acrom(700);
       text-align: center;
-      font-size: 16px;
+      font-size: 17px;
+      padding: 5px;
       color: $white;
-      line-height: 1.5;
+      line-height: 1.2;
       text-shadow: 0px -0.5px 0px $yellowTextShadow;
     }
   }
@@ -132,9 +138,7 @@
 
     &__num {
       position: absolute;
-      margin-left: 115px;
-      background-repeat: no-repeat;
-      background-size: cover;
+      margin-left: 93px;
       width: 177px;
       height: 109px;
       z-index: 2;
@@ -154,8 +158,6 @@
     margin: auto;
 
     &__start {
-      padding-top: 50px;
-
       &--title {
         font-size: 28px;
         line-height: 1.1;
@@ -170,7 +172,11 @@
   }
 
   .card {
-    justify-content: center;
+    margin: 20px 5px 5px 5px;
+
+    &__line {
+      margin-top: 100px;
+    }
 
     &__line {
       background-color: $blue;
@@ -184,20 +190,26 @@
     
     &__num {
       position: absolute;
-      background-repeat: no-repeat;
-      background-size: cover;
       width: 140px;
       height: 70px;
-      z-index: 2;
+      margin-left: 114px;
     }
   }
 
   .item {
+<<<<<<< HEAD
     width: 240px;
     height: 290px;
 
     &__text {
       width: 180px;
+=======
+    width: 235px;
+    height: 290px;
+
+    &__text {
+      width: 160px;
+>>>>>>> master
       font-size: 14px;
       line-height: 1.5;
     }
@@ -207,7 +219,7 @@
     width: 640px;
 
     &__buttom {
-      padding-top: 20px;
+      padding-top: 18px;
 
       &--text {
         font-size: 20px;
@@ -227,7 +239,7 @@
     margin: auto;
 
     &__start {
-      padding-top: 50px;
+      padding-top: 30px;
       justify-content: space-around;
 
       &--title {
@@ -253,8 +265,11 @@
     &__num {
       position: absolute;
       margin-left: 193px;
+<<<<<<< HEAD
       background-repeat: no-repeat;
       background-size: cover;
+=======
+>>>>>>> master
       width: 177px;
       height: 109px;
       z-index: 2;
@@ -279,14 +294,13 @@
       justify-content: center;
       margin: auto;
       height: 108px;
-      margin-top: 77px;
-      margin: auto;
+      margin-bottom: 50px;
       transition: 0.2s;
 
       &--text {
         margin-top: 20px;
         font-size: 25px;
-        line-height: 2;
+        line-height: 1;
       }
     }
   }
