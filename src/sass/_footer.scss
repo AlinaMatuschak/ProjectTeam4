@@ -1,0 +1,84 @@
+.footer {
+  background-image: url(../images/team_mobile.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 458px;
+  text-align: center;
+  font-size: 0;
+
+  &__title {
+    font-size: 20px;
+    color: $blue;
+    text-transform: uppercase;
+    margin: 0;
+    padding-top: 54px;
+    margin-bottom: 282px;
+    display: inline-block;
+
+    &::after {
+      content: '';
+      height: 2px;
+      background-color: $blue;
+      display: block;
+      margin-top: 10px;
+    }
+  }
+
+  &__text {
+    font-size: 14px;
+    font-family: $acrom;
+    color: $white;
+  }
+}
+
+@media (min-width: 748px) {
+  .footer {
+    background-image: url(../images/team_tablet.jpg);
+
+    &__title {
+      padding-top: 88px;
+      margin-bottom: 264px;
+    }
+
+    &__down {
+      width: 620px;
+      display: flex;
+      align-items: center;
+    }
+
+    &__text {
+      font-size: 18px;
+    }
+
+    &__logo {
+      margin-right: 12px;
+    }
+  }
+}
+
+@media (min-width: 1170px) {
+  .footer {
+    background-image: url(../images/team_desktop.jpg);
+    height: 1054px;
+
+    &__title {
+      font-size: 60px;
+      padding-top: 252px;
+      margin-bottom: 600px;
+
+      &::after {
+        height: 3px;
+      }
+    }
+
+    &__text {
+      font-size: 25px;
+      margin-left: 15px;
+    }
+
+    &__down {
+      margin-left: 15px;
+    }
+  }
+}
