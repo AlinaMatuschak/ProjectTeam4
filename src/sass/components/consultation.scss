@@ -1,0 +1,11 @@
+.consultation {
+  display: flex;
+  flex-direction: column;
+  font-family: $acrom;
+}
+@media (min-width: 1170px) {
+  .consultation {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
