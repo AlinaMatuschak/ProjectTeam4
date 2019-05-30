@@ -45,17 +45,14 @@
 
   &__num {
     position: absolute;
-<<<<<<< HEAD
     margin-left: 115px;
     background-repeat: no-repeat;
     background-size: cover;
     width: 177px;
     height: 109px;
     z-index: 2;
-=======
     background-repeat: no-repeat;
     background-size: cover;
->>>>>>> master
   }
 
   &__line {
@@ -187,7 +184,7 @@
       margin-right: 190px;
       z-index: 7;
     }
-    
+
     &__num {
       position: absolute;
       width: 140px;
@@ -197,19 +194,17 @@
   }
 
   .item {
-<<<<<<< HEAD
     width: 240px;
     height: 290px;
 
     &__text {
       width: 180px;
-=======
-    width: 235px;
-    height: 290px;
-
+      width: 235px;
+      height: 290px;
+    }
+    
     &__text {
       width: 160px;
->>>>>>> master
       font-size: 14px;
       line-height: 1.5;
     }
@@ -265,11 +260,8 @@
     &__num {
       position: absolute;
       margin-left: 193px;
-<<<<<<< HEAD
       background-repeat: no-repeat;
       background-size: cover;
-=======
->>>>>>> master
       width: 177px;
       height: 109px;
       z-index: 2;
