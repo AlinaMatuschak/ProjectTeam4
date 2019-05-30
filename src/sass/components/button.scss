@@ -1,16 +1,13 @@
 .button {
-    $s: 1rem;
-    font-family: $acrom;
-    font-weight: bold;
-    font-size: 1rem;
-    text-transform: uppercase;
-    background-color: $orange;
-    box-shadow: 0px 2px 10px 0px $orange;
-    color: #fff;
-    width: 100%;
-    padding-top: $s;
-    padding-bottom: $s;
+  $s: 1rem;
+  font-family: $acrom;
+  font-weight: bold;
+  font-size: 1rem;
+  text-transform: uppercase;
+  background-color: $orange;
+  box-shadow: 0px 2px 10px 0px $orange;
+  color: #fff;
+  width: 100%;
+  padding-top: $s;
+  padding-bottom: $s;
 }
-
-
-  

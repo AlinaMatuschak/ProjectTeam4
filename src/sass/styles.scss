@@ -2,12 +2,13 @@
 @import './fonts';
 @import './base';
 @import './variables';
-@import './why_it';
 @import './your_way';
-
-
+@import './why_it';
+@import './consult_it';
+@import './about_us';
+@import './footer';
+@import './go_for_it';
 @import 'components/container-fluid';
-@import 'components/container';
 @import 'components/container-fluid__header';
 @import 'components/header';
 @import 'components/logo';
@@ -21,3 +22,15 @@
 @import 'components/button';
 @import 'components/button-header';
 @import 'components/confidentiality';
+@import './cards';
+@import './container';
+@import './footer';
+@import './partner';
+@import './title';
+@import 'components/consultation';
+@import 'components/consultation-text';
+@import 'components/consultation-h2';
+@import 'components/consultation-h4';
+@import 'components/consultation-h4__accent';
+@import './components/title';
+@import './components/partner';
