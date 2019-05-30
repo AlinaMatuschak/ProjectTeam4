@@ -3,12 +3,14 @@
   height: 592px;
   margin: 0 auto;
   padding-top: 40px;
+
   &--wrp {
     width: 100%;
     background: $background;
     height: 592px;
     margin: 0;
   }
+
   &__text {
     display: block;
     max-width: 260px;
@@ -24,17 +26,20 @@
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+
   &__title {
     color: $blue;
     font-size: 20px;
     @include acrom(700);
     text-align: left;
     margin: 20px 0;
+
     &--wrp {
       max-width: 260px;
       order: 1;
     }
   }
+
   &__button {
     width: 260px;
     height: 70px;
@@ -46,6 +51,7 @@
     font-size: 14px;
     @include acrom(800);
   }
+
   &__inf {
     display: block;
     max-width: 260px;
@@ -54,6 +60,7 @@
     font-size: 14px;
     line-height: 20px;
     @include acrom(700);
+
     &--white {
       color: #fff;
     }
@@ -73,10 +80,12 @@
   .your_way {
     max-width: 748px;
     height: 600px;
-    padding-top: 60px;
+    padding-top: 50px;
+
     &--wrp {
       height: 600px;
     }
+
     &__text {
       max-width: 671px;
       font-size: 22px;
@@ -86,18 +95,22 @@
 
   .a_section {
     margin-left: 64px;
+
     &__title {
       font-size: 40px;
       margin: 30px 0;
       width: 625px;
+
       &--wrp {
         max-width: 620px;
       }
     }
+
     &__button {
       width: 532px;
       font-size: 18px;
     }
+
     &__inf {
       max-width: 385px;
       font-size: 16px;
@@ -111,9 +124,11 @@
     max-width: 1170px;
     height: 645px;
     padding-top: 100px;
+
     &--wrp {
       height: 645px;
     }
+
     &__text {
       max-width: 670px;
       font-size: 30px;
@@ -124,21 +139,25 @@
   .a_section {
     flex-wrap: nowrap;
     margin: 0;
+
     &__title {
       font-size: 48px;
       margin: 0 0 55px 15px;
       width: 671px;
+
       &--wrp {
         max-width: 720px;
         order: 0;
       }
     }
+
     &__button {
       width: 683px;
       height: 110px;
       margin-left: 15px;
       font-size: 30px;
     }
+
     &__inf {
       max-width: 350px;
       font-size: 18px;

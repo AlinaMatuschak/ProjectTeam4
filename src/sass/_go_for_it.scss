@@ -1,0 +1,35 @@
+.go_for_it {
+  position: relative;
+
+  &__img {
+    position: absolute;
+    top: 17px;
+    left: 55px;
+    z-index: -1;
+  }
+  
+  &__text {
+    color: #6b6f7a;
+    text-align: center;
+    font-family: $acrom;
+    font-size: 14px;
+    text-align: left;
+    line-height: 1.5;
+    padding-left: 20px;
+  }
+}
+
+
+@media (min-width: 748px) {
+  .go_for_it {
+    &__img {
+      left: 250px;
+    }
+  }
+}
+
+@media (min-width: 1170px) {
+  .go_for_it {
+    margin-left: 0;
+  }
+}

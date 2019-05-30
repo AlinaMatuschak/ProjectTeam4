@@ -1,0 +1,76 @@
+.title {
+  font-family: 'Acrom';
+  font-size: 20px;
+  font-weight: 800;
+
+  &__about_us {
+    text-align: left;
+    width: 70%;
+    padding: 20px 0 0 20px;
+  }
+
+  &__go_for_it {
+    font-size: 24px;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 15px 0 0 20px;
+  }
+}
+
+.subtitle {
+  font-family: 'Acrom';
+  font-size: 16px;
+  font-weight: 800;
+  background-color: #edf0f2;
+  display: inline-block;
+  text-align: left;
+  margin-left: 20px;
+
+  &__partners {
+    margin-bottom: 40px;
+  }
+}
+
+@media (min-width: 748px) {
+  .title {
+    font-size: 30px;
+
+    &__about_us{
+      padding: 20px 0 0 60px;
+    }
+
+    &__go_for_it {
+      padding: 0 0 0 20px;
+      font-size: 24px;
+      width: 80%;
+    }
+  }
+
+  .subtitle {
+    margin-left: 60px;
+
+    &__go_for_it {
+      margin-left: 20px;
+      margin-bottom: 40px;
+    }
+  }
+}
+
+@media (min-width: 1170px) {
+  .title {
+    &__about_us {
+      margin: 0 0 45px 0;
+      padding-left: 15px;
+      padding-top: 80px;
+      width: 60%;
+      font-size: 48px;
+    }
+  }
+
+  .subtitle {
+    &__awward,
+    &__partners {
+      margin-left: 0;
+    }
+  }
+}
